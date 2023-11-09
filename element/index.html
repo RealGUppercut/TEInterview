@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tech Ed Designed Component</title>
+  </head>
+  <body>
+    <div class="grey-box">
+      <h1 class="main-heading">One price for a full stack</h1>
+      <h2 class="sub-heading">
+        We offer the entire course, 101 - 301 for a simple affordable price.
+      </h2>
+      <div class="floating-box">
+        <div class="info-box">
+          <h2 class="info-heading">In Person or Online</h2>
+          <p class="info-course">
+            In this 10 week daytime, or 20 week evening coding bootcamp, we will
+            focus on building react apps, using Mongo, ExpressJS, React and
+            NodeJS.
+          </p>
+          <div class="info-included">
+            <p class="whats-included">WHAT'S INCLUDED</p>
+            <p class="break-line">
+              ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+            </p>
+            <!-- I had some trouble here when trying to add the horiozontal line. -->
+            <!-- I forst tried using the standard <hr> but due to the fact I used flex row for the container, <hr> returned a vertical line! -->
+            <!-- I thought about going back and reworking the container without using flex but for the take of finishing within the time limit I decided to use a unicode character for a horizontal line - Not ideal! -->
+          </div>
+          <div class="checkmark-info">
+            <div class="checkmark-column">
+              <p class="checkmark-item">✅ Instructor Led Tuition</p>
+              <p class="checkmark-item">
+                ✅ Globally Recognised Course Material
+              </p>
+            </div>
+            <div class="checkmark-column">
+              <p class="checkmark-item">✅ Interview preparation and support</p>
+              <p class="checkmark-item">
+                ✅ 3-Month post graduation mentorship
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- I did not want to have to use external assets for the checkmarks so I found a similar unicode character-->
+        <div class="booking-box">
+          <p>Learn to code</p>
+          <div class="price">
+            <p>£5,500.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
